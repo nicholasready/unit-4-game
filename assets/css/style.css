@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    background-color: orange;
+    color: white;
+    width: 275px;
+}
+
+#instructions {
+    color: green;
+    background-color: beige;
+    width: 400px;
+}
+
+#randomNumberField {
+    background-color: green;
+    color: black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    
+
+    
+}
+
+#scoreField {
+    background-color: aquamarine;
+    color: black;
+     
+}
+
+#totalScore {
+    text-align: center;
+    font-size: 50px;
+}
+.buttonPics{
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+#yourScore {
+    background-color: teal;
+    color: white;
+    width:250px
+}
+
+#totalScore {
+    background-color: teal;
+    color: white;
+    width: 250px;
+    height: 200px;
+}
