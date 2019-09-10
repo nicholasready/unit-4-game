@@ -19,10 +19,24 @@ $(document).ready(function () {
     var totalScore = 0;
     $("#totalScore").text(totalScore);
 
+    
+
     $("#crystal1").on("click", function () {
         totalScore = totalScore + crystal1;
         $("#totalScore").text(totalScore);
-    });
+        if(totalScore == randomNumber){
+            wins++; 
+            $("#wins").text(wins);
+        totalScore=0;
+    }
+            //add code: randomize numbers again for a start of a new game
+            else if(totalScore>randomNumber){
+            losses++;
+            $("#losses").text(losses)
+            //add code: randomize number again for a start of a new game.
+            }
+        });
+    
 
     $("#crystal2").on("click", function () {
         totalScore = totalScore + crystal2;

@@ -20,6 +20,7 @@ h1 {
     height: 100px;
     text-align: center;
     font-size: 40px;
+    float: left;
     
 
     
@@ -28,6 +29,8 @@ h1 {
 #scoreField {
     background-color: aquamarine;
     color: black;
+    width: 200px;
+    
      
 }
 
